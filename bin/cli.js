@@ -54,7 +54,7 @@ program.on('--help', () => {
     whitespaceBreak: true
   }))
   // 新增说明信息
-  log(`\r\nRun ${chalk.cyan(`zr <command> --help`)} for detailed usage of given command\r\n`)
+  log(`\r\nRun ${chalk.cyan(`minilite <command> --help`)} for detailed usage of given command\r\n`)
 })
 
 program.parse(process.argv)
